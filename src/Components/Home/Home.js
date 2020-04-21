@@ -6,7 +6,7 @@ class Home extends Component {
     render() {
         return (
             <div className="App">
-                {this.props.authUser.isAuthenticated ? <ShowAllTalks /> : <h1>Please sign up to see all the talks!!</h1>}
+                {this.props.authUser.isAuthenticated ? <ShowAllTalks /> : <h1>Please sign up to see all the talks!! :-)</h1>}
             </div>
         )
     }
