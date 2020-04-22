@@ -22,12 +22,12 @@ export default class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/sign-up' component={Signup} />
-          <Route exact path='/sign-in' component={Signin} />
+          <Route exact path='/api/sign-up' component={Signup} />
+          <Route exact path='/api/sign-in' component={Signin} />
 
-          <PrivateRoute exact path='/create-talk' component={CreateTalk} />
-          <PrivateRoute exact path='/see-talk/:id' component={SeeTalk} />
-          <PrivateRoute exact path='/user-profile' component={UserProfile} />
+          <PrivateRoute exact path='/api/create-talk' component={CreateTalk} />
+          <PrivateRoute exact path='/api/see-talk/:id' component={SeeTalk} />
+          <PrivateRoute exact path='/api/user-profile' component={UserProfile} />
           <Route path="" component={NotFound} />
         </Switch>
       </>
