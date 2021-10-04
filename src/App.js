@@ -18,7 +18,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <>  
+      <> 
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />

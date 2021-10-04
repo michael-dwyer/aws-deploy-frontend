@@ -7,23 +7,22 @@
     "@material-ui/icons": "^4.5.1",
     "@material-ui/styles": "^4.5.0",
     "axios": "^0.21.1",
-    "fsevents": "^2.3.2",
     "jwt-decode": "^2.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-material-ui-form-validator": "^2.0.9",
-    "react-redux": "^7.1.1",
+    "react-redux": "^7.2.5",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^4.0.3",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "NODE_ENV=production react-scripts start",
+    "start": "REACT_APP_AXIOS=production react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "NODE_ENV=development react-scripts start"
+    "dev": "REACT_APP_AXIOS=development react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
