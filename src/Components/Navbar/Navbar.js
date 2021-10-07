@@ -99,7 +99,7 @@ class Navbar extends Component {
                      to='/'
                      className={this.props.classes.navLinkStyle}
                      activeStyle={styles.activeLinks}
-                     >Talk That Talk</NavLink>
+                     >Talk That Talk!!</NavLink>
 
                      <section className={this.props.classes.rightToolbar}>
                         
